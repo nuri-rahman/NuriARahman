@@ -1,13 +1,12 @@
 ---
 layout: page
-title: submenus
-nav: false
-nav_order: 8
+title: Contact
+nav: true
+nav_order: 5
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/nurirahman1/
+  - title: Email
+    url: "mailto:nurirahman.us@gmail.com?subject=Research%20Inquiry"
 ---
