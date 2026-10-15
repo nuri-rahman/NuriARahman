@@ -6,7 +6,7 @@ subtitle: Graduate Student in Computer Science at UMBC
 
 profile:
   align: right
-  image: IMG_8862 (1).jpg
+  image: nuri_profile_photo.jpg
   image_circular: false
   more_info:
 
