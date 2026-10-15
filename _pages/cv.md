@@ -1,12 +1,23 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: CV
+permalink: /cv/
 nav: true
 nav_order: 4
-cv_pdf: /assets/pdf/CV_ComputerScience.pdf
-cv_format: rendercv
-description: My academic curriculum vitae, including my education, research experience, projects, and technical skills.
-toc:
-  sidebar: left
+description: My academic curriculum vitae.
 ---
+
+<div style="margin-bottom: 20px;">
+  <a href="{{ '/assets/pdf/CV_ComputerScience.pdf' | relative_url }}"
+     target="_blank">
+    Download My CV (PDF)
+  </a>
+</div>
+
+<iframe
+  src="{{ '/assets/pdf/CV_ComputerScience.pdf' | relative_url }}"
+  width="100%"
+  height="900px"
+  style="border: none;"
+  title="Nuri Abdul-Rahman Curriculum Vitae">
+</iframe>
